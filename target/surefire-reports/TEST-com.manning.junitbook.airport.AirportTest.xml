@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.manning.junitbook.airport.AirportTest" time="0.144" tests="26" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Hecto\Desktop\Ferralla\Junit-example\Phase5\target\test-classes;C:\Users\Hecto\Desktop\Ferralla\Junit-example\Phase5\target\classes;C:\Users\Hecto\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Hecto\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Hecto\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Hecto\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Hecto\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Hecto\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Atlantic/Canary"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Hecto\AppData\Local\Temp\surefire3180280185782361575\surefirebooter17104089393201356708.jar C:\Users\Hecto\AppData\Local\Temp\surefire3180280185782361575 2025-11-27T11-41-25_684-jvmRun1 surefire7249513824523857769tmp surefire_0561628541193394511tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Hecto\Desktop\Ferralla\Junit-example\Phase5\target\test-classes;C:\Users\Hecto\Desktop\Ferralla\Junit-example\Phase5\target\classes;C:\Users\Hecto\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Hecto\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Hecto\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Hecto\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Hecto\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Hecto\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Hecto"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Hecto\Desktop\Ferralla\Junit-example\Phase5"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Hecto\AppData\Local\Temp\surefire3180280185782361575\surefirebooter17104089393201356708.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
+    <property name="user.name" value="Hecto"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Hecto\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Hecto\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="C:\Users\Hecto\Desktop\Ferralla\Junit-example\Phase5"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\LLVM\bin;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\doxygen\bin;C:\Program Files\Graphviz\bin;C:\Pr;C:\Users\Hecto\scoop\apps\maven\current\bin;C:\Users\Hecto\scoop\shims;C:\roop-unleashed\installer_files\ffmpeg\bin\;C:\roop-unleashed\installer_files\env;C:\roop-unleashed\installer_files\env\Library\mingw-w64\bin;C:\roop-unleashed\installer_files\env\Library\usr\bin;C:\roop-unleashed\installer_files\env\Library\bin;C:\roop-unleashed\installer_files\env\Scripts;C:\roop-unleashed\installer_files\env\bin;C:\roop-unleashed\installer_files\conda\condabin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\NVIDIA Corporation\NVIDIA Nv;C:\Users\Hecto\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hecto\AppData\Local\Microsoft\WindowsApps;C:\Users\Hecto\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.4\bin;c:\Users\Hecto\.vscode\extensions\vscjava.vscode-java-debug-0.58.3\bundled\scripts\noConfigScripts;c:\Users\Hecto\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.7+8-LTS-245"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testPremiumFlightVipPassenger" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$VipPassenger" time="0.047"/>
+  <testcase name="testPremiumFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[1]" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$VipPassenger" time="0.007"/>
+  <testcase name="testPremiumFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[2]" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$VipPassenger" time="0.002"/>
+  <testcase name="testPremiumFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[3]" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$VipPassenger" time="0.001"/>
+  <testcase name="testPremiumFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[4]" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$VipPassenger" time="0"/>
+  <testcase name="testPremiumFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[5]" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$VipPassenger" time="0.001"/>
+  <testcase name="testPremiumFlightRegularPassenger" classname="com.manning.junitbook.airport.AirportTest$PremiumFlightTest$RegularPassenger" time="0.003"/>
+  <testcase name="testBusinessFlightVipPassenger" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$VipPassenger" time="0.003"/>
+  <testcase name="testBusinessFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[1]" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$VipPassenger" time="0.003"/>
+  <testcase name="testBusinessFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[2]" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$VipPassenger" time="0.001"/>
+  <testcase name="testBusinessFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[3]" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$VipPassenger" time="0"/>
+  <testcase name="testBusinessFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[4]" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$VipPassenger" time="0.001"/>
+  <testcase name="testBusinessFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[5]" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$VipPassenger" time="0.001"/>
+  <testcase name="testBusinessFlightRegularPassenger" classname="com.manning.junitbook.airport.AirportTest$BusinessFlightTest$RegularPassenger" time="0.002"/>
+  <testcase name="testEconomyFlightVipPassenger" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$VipPassenger" time="0.003"/>
+  <testcase name="testEconomyFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[1]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$VipPassenger" time="0.001"/>
+  <testcase name="testEconomyFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[2]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$VipPassenger" time="0"/>
+  <testcase name="testEconomyFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[3]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$VipPassenger" time="0.001"/>
+  <testcase name="testEconomyFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[4]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$VipPassenger" time="0.001"/>
+  <testcase name="testEconomyFlightVipPassengerAddedOnlyOnce{RepetitionInfo}[5]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$VipPassenger" time="0"/>
+  <testcase name="testEconomyFlightRegularPassenger" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$RegularPassenger" time="0.002"/>
+  <testcase name="testEconomyFlightRegularPassengerAddedOnlyOnce{RepetitionInfo}[1]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$RegularPassenger" time="0.002"/>
+  <testcase name="testEconomyFlightRegularPassengerAddedOnlyOnce{RepetitionInfo}[2]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$RegularPassenger" time="0"/>
+  <testcase name="testEconomyFlightRegularPassengerAddedOnlyOnce{RepetitionInfo}[3]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$RegularPassenger" time="0.001"/>
+  <testcase name="testEconomyFlightRegularPassengerAddedOnlyOnce{RepetitionInfo}[4]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$RegularPassenger" time="0.001"/>
+  <testcase name="testEconomyFlightRegularPassengerAddedOnlyOnce{RepetitionInfo}[5]" classname="com.manning.junitbook.airport.AirportTest$EconomyFlightTest$RegularPassenger" time="0.002"/>
+</testsuite>
