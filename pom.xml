@@ -9,37 +9,41 @@
     <name>ch20-tdd</name>
     <url>http://maven.apache.org</url>
 
-    <profile>
-  <id>coverage</id>
-  <build>
-   <plugins>
-    <plugin>
-      <groupId>org.jacoco</groupId>
-     <artifactId>jacoco-maven-plugin</artifactId>
-      <version>0.8.7</version>
-      <executions>
-        <execution>
-          <id>prepare-agent</id>
-          <goals>
-            <goal>prepare-agent</goal>
-          </goals>
-        </execution>
-        <execution>
-          <id>report</id>
-          <goals>
-            <goal>report</goal>
-          </goals>
-          <configuration>
-            <formats>
-              <format>XML</format>
-            </formats>
-          </configuration>
-        </execution>
-      </executions>
-    </plugin>
-   </plugins>
-  </build>
-</profile>
+    <profiles>
+      <profile>
+        <id>coverage</id>
+        <build>
+          <plugins>
+            <plugin>
+              <groupId>org.jacoco</groupId>
+              <artifactId>jacoco-maven-plugin</artifactId>
+              <version>0.8.7</version>
+              <executions>
+                <execution>
+                  <id>prepare-agent</id>
+                  <phase>initialize</phase>
+                  <goals>
+                    <goal>prepare-agent</goal>
+                  </goals>
+                </execution>
+                <execution>
+                  <id>report</id>
+                  <phase>verify</phase>
+                  <goals>
+                    <goal>report</goal>
+                  </goals>
+                  <configuration>
+                    <formats>
+                      <format>XML</format>
+                    </formats>
+                  </configuration>
+                </execution>
+              </executions>
+            </plugin>
+          </plugins>
+        </build>
+      </profile>
+    </profiles>
 
     <build>
         <plugins>
