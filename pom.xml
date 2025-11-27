@@ -9,6 +9,13 @@
     <name>ch20-tdd</name>
     <url>http://maven.apache.org</url>
 
+    <properties>
+        <sonar.projectKey>HectorLMF_Junittesting-example</sonar.projectKey>
+        <sonar.organization>hectorlmf</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+    </properties>
+
     <profiles>
       <profile>
         <id>coverage</id>
@@ -47,6 +54,11 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.9.1.2184</version>
+            </plugin>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
